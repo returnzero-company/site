@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300">
+  <defs>
+    <style>
+      .c {
+        letter-spacing: 0em;
+      }
+      .d {
+        fill: #fff;
+        font-family: CourierNewPSMT, 'Courier New';
+        font-size: 60px;
+      }
+    </style>
+  </defs>
+  <text id="b" class="d" transform="translate(171.17 139.67)">
+    <tspan class="c">
+      <tspan x="0" y="0">	</tspan>
+    </tspan>
+    <tspan x="0" y="72">{</tspan>
+    <tspan x="0" y="144" xml:space="preserve">  </tspan>
+  </text>
+</svg>
