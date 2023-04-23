@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>R E T U R N Z E R O</title>
+    <style>
+        body {
+            background-color: #26262a;
+            margin: 0; /* Remove default body margin */
+            height: 100vh; /* Set body height to viewport height */
+            min-height: 600px;
+            max-height: 1200px;
+            position: relative; /* Set body as the reference for absolute positioning */
+        }
+        #upper {
+            position: absolute; /* Position imageA absolutely */
+            top: 0; /* Position imageA at the top of the page */
+            left: 0; /* Position imageA at the left of the page */
+            width: 50%; /* Set width of imageA to 50% of body width */
+            max-width: 500px;
+            height: auto; /* Maintain aspect ratio of imageA */
+        }
+        #lower {
+            position: absolute; /* Position imageB absolutely */
+            bottom: 0; /* Position imageB at the bottom of the page */
+            left: 0; /* Position imageB at the left of the page */
+            width: 50%; /* Set width of imageB to 50% of body width */
+            max-width: 500px;
+            height: auto; /* Maintain aspect ratio of imageB */
+        }
+    </style>
+</head>
+<body>
+    <object id="upper" type="image/svg+xml" data="upper.svg"></object>
+    <object id="lower" type="image/svg+xml" data="lower.svg"></object>
+</body>
+</html>
